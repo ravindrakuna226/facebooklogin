@@ -22,7 +22,7 @@ public class facebookLogin {
 		driver.findElement(By.cssSelector("div[aria-label='Account']")).click();
 		driver.findElement(By.xpath("//span[contains(text(),'Log Out')]")).click();
 		driver.findElement(By.xpath("//span[text()='Log Out']")).click();
-		//driver.close();
+		driver.close();
 
 	}
 
